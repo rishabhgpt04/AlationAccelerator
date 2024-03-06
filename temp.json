@@ -1,0 +1,2859 @@
+[
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10082,
+        "field_type": "PICKER",
+        "tooltip_text": "Status",
+        "name_plural": "",
+        "name_singular": "Status",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Accepted",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Candidate",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Under Review",
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Approval Pending",
+            "old_index": 3
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "In Progress",
+            "old_index": 4
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Obsolete",
+            "old_index": 5
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Resolution Pending",
+            "old_index": 6
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10013,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": "You should describe the content of the wiki page. ",
+        "name_plural": "",
+        "name_singular": "Summary",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10083,
+        "field_type": "PICKER",
+        "tooltip_text": "Domain",
+        "name_plural": "",
+        "name_singular": "Domain",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Enterprise Glossary",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Risk",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Finance",
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Consumer Credit",
+            "old_index": 3
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10084,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Type",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Business Term",
+            "article_id": null,
+            "tooltip_text": "",
+            "old_index": 0
+          },
+          {
+            "title": "Technical Term",
+            "article_id": null,
+            "tooltip_text": "",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Algorithm",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10113,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "Column Comments",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 66,
+    "layout_otype": 0,
+    "title": "Banking Glossary",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10114,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "BI Hidden Links",
+        "name_singular": "BI Hidden Links",
+        "backref_name": "backref",
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 90,
+    "layout_otype": 0,
+    "title": "BI Column Definition",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10008,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The business owner ultimately responsible for the item in question",
+        "name_plural": "Business Owners",
+        "name_singular": "Business Owner",
+        "backref_name": "Business Owner of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10050,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Sales Report",
+        "backref_name": "Relevant Brands",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": ["article"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10033,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Generic Name",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10048,
+        "field_type": "DATE",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Development Date",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10034,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Indication",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Children",
+            "old_index": 0
+          },
+          {
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Adults",
+            "old_index": 1
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10016,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "Relevant Data",
+        "name_singular": "Relevant Data",
+        "backref_name": "Related Policies",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": [
+          "data",
+          "schema",
+          "table",
+          "attribute",
+          "user",
+          "article",
+          "groupprofile",
+          "groupprofile"
+        ],
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 11,
+    "layout_otype": 0,
+    "title": "Brand",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10116,
+        "field_type": "MULTI_PICKER",
+        "tooltip_text": null,
+        "name_plural": "Output Format (BU)",
+        "name_singular": "Output Format (BU)",
+        "backref_name": "backref",
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "CSV-UTF8",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 0
+          },
+          {
+            "title": "XLSX",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 1
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10115,
+        "field_type": "MULTI_PICKER",
+        "tooltip_text": null,
+        "name_plural": "Features (BU)",
+        "name_singular": "Features (BU)",
+        "backref_name": "backref",
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Broken Links",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 0
+          },
+          {
+            "title": "External Links",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 1
+          },
+          {
+            "title": "Asynchronous",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 2
+          },
+          {
+            "title": "Empty Cols",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 3
+          },
+          {
+            "title": "Include Private",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 4
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10117,
+        "field_type": "DATE",
+        "tooltip_text": null,
+        "name_plural": "Start Date (BU)",
+        "name_singular": "Start Date (BU)",
+        "backref_name": "backref",
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10118,
+        "field_type": "DATE",
+        "tooltip_text": null,
+        "name_plural": "End Date (BU)",
+        "name_singular": "End Date (BU)",
+        "backref_name": "backref",
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10119,
+        "field_type": "MULTI_PICKER",
+        "tooltip_text": null,
+        "name_plural": "Desired Template (BU)",
+        "name_singular": "Desired Template (BU)",
+        "backref_name": "backref",
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "BI Column Definition",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 0
+          },
+          {
+            "title": "Banking Glossary",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 1
+          },
+          {
+            "title": "Brand",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 2
+          },
+          {
+            "title": "Business Glossary",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 3
+          },
+          {
+            "title": "CCAR Submissions",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 4
+          },
+          {
+            "title": "Data Classification",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 5
+          },
+          {
+            "title": "Data Fact Sheet",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 6
+          },
+          {
+            "title": "Data Request Form",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 7
+          },
+          {
+            "title": "Dataset License",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 8
+          },
+          {
+            "title": "Group Page",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 9
+          },
+          {
+            "title": "KB Article Template",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 10
+          },
+          {
+            "title": "KB Test",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 11
+          },
+          {
+            "title": "PII Information",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 12
+          },
+          {
+            "title": "PII sample custom templates",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 13
+          },
+          {
+            "title": "S Case Demo 2",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 14
+          },
+          {
+            "title": "Snowflake template",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 15
+          },
+          {
+            "title": "Test Article Template",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 16
+          },
+          {
+            "title": "default",
+            "tooltip_text": null,
+            "article_id": null,
+            "old_index": 17
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10120,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "1 - Download",
+        "name_singular": "1 - Download",
+        "backref_name": "backref",
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10121,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "2 - Upload",
+        "name_singular": "2 - Upload",
+        "backref_name": "backref",
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10122,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "3 - Admin",
+        "name_singular": "3 - Admin",
+        "backref_name": "backref",
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 89,
+    "layout_otype": 0,
+    "title": "Bulk Utility (BU)",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": "business_glossary",
+    "fields": [
+      {
+        "id": 10008,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The business owner ultimately responsible for the item in question",
+        "name_plural": "Business Owners",
+        "name_singular": "Business Owner",
+        "backref_name": "Business Owner of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10028,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Data Access",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Open",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Restricted",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Limited",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10011,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "Instance",
+        "name_singular": "Instance",
+        "backref_name": "Instance of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["data", "schema", "table", "attribute"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10033,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Generic Name",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10012,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "Gold Master data",
+        "name_singular": "Gold Master data",
+        "backref_name": "Gold Master of column similarity",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": ["attribute"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10021,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Data Classification",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Restricted",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 0
+          },
+          {
+            "title": "Proprietary",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 1
+          },
+          {
+            "title": "Open",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Uknown",
+            "old_index": 3
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10055,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Approval Status",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Approved",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Rejected",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Under Evaluation",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10030,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Business Domain",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Healthcare",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Finance",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Retail",
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Services",
+            "old_index": 3
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Marketing",
+            "old_index": 4
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10067,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "Relevant Datasets",
+        "name_singular": "Relevant Dataset",
+        "backref_name": "Dataset relevant to",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["table"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10062,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The data elements that are critical to achieve the stated business output",
+        "name_plural": "Critical Data Elements",
+        "name_singular": "Critical Data Element",
+        "backref_name": "Critical Data Element for",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["data", "schema", "table", "attribute"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 5,
+        "field_type": "PICKER",
+        "tooltip_text": "Status of the business glossary term",
+        "name_plural": "",
+        "name_singular": "Status",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "in_use": true,
+            "title": "New",
+            "old_index": 0
+          },
+          {
+            "in_use": true,
+            "title": "In Progress",
+            "old_index": 1
+          },
+          {
+            "in_use": true,
+            "title": "Under Review",
+            "old_index": 2
+          },
+          {
+            "in_use": true,
+            "title": "Approved",
+            "old_index": 3
+          },
+          {
+            "in_use": true,
+            "title": "Obsolete",
+            "old_index": 4
+          },
+          {
+            "title": "Unknown",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 5
+          }
+        ],
+        "builtin_name": "business_glossary_status"
+      },
+      {
+        "id": 10016,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "Relevant Data",
+        "name_singular": "Relevant Data",
+        "backref_name": "Related Policies",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": [
+          "data",
+          "schema",
+          "table",
+          "attribute",
+          "user",
+          "article",
+          "groupprofile",
+          "groupprofile"
+        ],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10032,
+        "field_type": "PICKER",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "PII classification",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "in_use": true,
+            "title": "verified Not PII",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "in_use": true,
+            "title": "verified yes PII",
+            "old_index": 1
+          }
+        ],
+        "builtin_name": null
+      }
+    ],
+    "id": 6,
+    "layout_otype": 0,
+    "title": "Business Glossary",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10008,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The business owner ultimately responsible for the item in question",
+        "name_plural": "Business Owners",
+        "name_singular": "Business Owner",
+        "backref_name": "Business Owner of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10014,
+        "field_type": "DATE",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Approval Date",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10055,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Approval Status",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Approved",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Rejected",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Under Evaluation",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10073,
+        "field_type": "PICKER",
+        "tooltip_text": "The agency for which the report is being prepared and to whom it will ultimately be submitted. ",
+        "name_plural": "",
+        "name_singular": "Requesting Agency",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Federal Reserve",
+            "old_index": 0
+          },
+          {
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "SEC",
+            "old_index": 1
+          },
+          {
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "FDIC",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10071,
+        "field_type": "DATE",
+        "tooltip_text": "Date on which the CCAR filing was submitted",
+        "name_plural": "",
+        "name_singular": "Submission Date",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10062,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The data elements that are critical to achieve the stated business output",
+        "name_plural": "Critical Data Elements",
+        "name_singular": "Critical Data Element",
+        "backref_name": "Critical Data Element for",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["data", "schema", "table", "attribute"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10072,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": "The assets that were created to support the CCAR submission",
+        "name_plural": "",
+        "name_singular": "Submission Output",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10074,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "All the members of the team that worked on producing the output for the listed ",
+        "name_plural": "Reporting Team Members",
+        "name_singular": "Reporting Team Member",
+        "backref_name": "Member of reporting team",
+        "backref_tooltip_text": "project/month. ",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 38,
+    "layout_otype": 0,
+    "title": "CCAR Submissions",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 4,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "Description",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": "description"
+      }
+    ],
+    "id": 87,
+    "layout_otype": 96,
+    "title": "Customer demograph",
+    "visual_config_id": 73
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10021,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Data Classification",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Restricted",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 0
+          },
+          {
+            "title": "Proprietary",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 1
+          },
+          {
+            "title": "Open",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Uknown",
+            "old_index": 3
+          }
+        ],
+        "builtin_name": null
+      }
+    ],
+    "id": 72,
+    "layout_otype": 0,
+    "title": "Data Classification",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10008,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The business owner ultimately responsible for the item in question",
+        "name_plural": "Business Owners",
+        "name_singular": "Business Owner",
+        "backref_name": "Business Owner of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10009,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "Individual(s) responsible for approving the item in question",
+        "name_plural": "Approvers",
+        "name_singular": "Approver",
+        "backref_name": "Approver of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10021,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Data Classification",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Restricted",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 0
+          },
+          {
+            "title": "Proprietary",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 1
+          },
+          {
+            "title": "Open",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Uknown",
+            "old_index": 3
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10066,
+        "field_type": "PICKER",
+        "tooltip_text": "blbbllala",
+        "name_plural": "",
+        "name_singular": "Obsolete?",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Obsolete",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Ok to use",
+            "old_index": 1
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10062,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The data elements that are critical to achieve the stated business output",
+        "name_plural": "Critical Data Elements",
+        "name_singular": "Critical Data Element",
+        "backref_name": "Critical Data Element for",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["data", "schema", "table", "attribute"],
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 23,
+    "layout_otype": 0,
+    "title": "Data Fact Sheet",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10013,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": "You should describe the content of the wiki page. ",
+        "name_plural": "",
+        "name_singular": "Summary",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 91,
+    "layout_otype": 0,
+    "title": "Data Glossary",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10008,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The business owner ultimately responsible for the item in question",
+        "name_plural": "Business Owners",
+        "name_singular": "Business Owner",
+        "backref_name": "Business Owner of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10009,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "Individual(s) responsible for approving the item in question",
+        "name_plural": "Approvers",
+        "name_singular": "Approver",
+        "backref_name": "Approver of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10014,
+        "field_type": "DATE",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Approval Date",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10015,
+        "field_type": "DATE",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Creation Date",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10022,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Department",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Finance",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Operations",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Sales",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10025,
+        "field_type": "PICKER",
+        "tooltip_text": "The status of your data request",
+        "name_plural": "",
+        "name_singular": "Data Request Status",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Received",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "More Information Needed",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Awaiting VP Approval",
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Approved",
+            "old_index": 3
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10021,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Data Classification",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Restricted",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 0
+          },
+          {
+            "title": "Proprietary",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 1
+          },
+          {
+            "title": "Open",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Uknown",
+            "old_index": 3
+          }
+        ],
+        "builtin_name": null
+      }
+    ],
+    "id": 8,
+    "layout_otype": 0,
+    "title": "Data Request Form",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10008,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The business owner ultimately responsible for the item in question",
+        "name_plural": "Business Owners",
+        "name_singular": "Business Owner",
+        "backref_name": "Business Owner of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10018,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Refers to",
+        "backref_name": "Is referred to by",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": ["data", "article"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10032,
+        "field_type": "PICKER",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "PII classification",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "in_use": true,
+            "title": "verified Not PII",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "in_use": true,
+            "title": "verified yes PII",
+            "old_index": 1
+          }
+        ],
+        "builtin_name": null
+      }
+    ],
+    "id": 16,
+    "layout_otype": 0,
+    "title": "Dataset License",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 8,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "Stewards",
+        "name_singular": "Steward",
+        "backref_name": "Steward",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": "steward"
+      },
+      {
+        "id": 4,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "Description",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": "description"
+      },
+      {
+        "id": 10099,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "Dynamic Data Policies",
+        "name_singular": "Dynamic Data Policy",
+        "backref_name": "Relevent Data",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": [
+          "data",
+          "schema",
+          "table",
+          "attribute",
+          "user",
+          "article",
+          "glossary_term",
+          "groupprofile",
+          "groupprofile"
+        ],
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 84,
+    "layout_otype": 93,
+    "title": "Dynamic Data Policy",
+    "visual_config_id": 65
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10006,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The internal experts on any given subject",
+        "name_plural": "Subject Matter Experts",
+        "name_singular": "Subject Matter Expert",
+        "backref_name": "Subject Matter Expert on ",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10007,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "Members of the team/group in question",
+        "name_plural": "Members",
+        "name_singular": "Member",
+        "backref_name": "Member of ",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10008,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The business owner ultimately responsible for the item in question",
+        "name_plural": "Business Owners",
+        "name_singular": "Business Owner",
+        "backref_name": "Business Owner of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10017,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Subject to",
+        "backref_name": "Is subject to",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": ["article"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10016,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "Relevant Data",
+        "name_singular": "Relevant Data",
+        "backref_name": "Related Policies",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": [
+          "data",
+          "schema",
+          "table",
+          "attribute",
+          "user",
+          "article",
+          "groupprofile",
+          "groupprofile"
+        ],
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 7,
+    "layout_otype": 0,
+    "title": "Group Page",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10008,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The business owner ultimately responsible for the item in question",
+        "name_plural": "Business Owners",
+        "name_singular": "Business Owner",
+        "backref_name": "Business Owner of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10083,
+        "field_type": "PICKER",
+        "tooltip_text": "Domain",
+        "name_plural": "",
+        "name_singular": "Domain",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Enterprise Glossary",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Risk",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Finance",
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Consumer Credit",
+            "old_index": 3
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10029,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Business Approved",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Approved",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 0
+          },
+          {
+            "title": "Rejeted",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 1
+          },
+          {
+            "title": "Not Approved",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10030,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Business Domain",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Healthcare",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Finance",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Retail",
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Services",
+            "old_index": 3
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Marketing",
+            "old_index": 4
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10063,
+        "field_type": "PICKER",
+        "tooltip_text": "This is the classification level applicable based on the company policy",
+        "name_plural": "",
+        "name_singular": "Classification 2",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Proprietary",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 0
+          },
+          {
+            "title": "Restricted",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 1
+          },
+          {
+            "title": "Internal Use",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 2
+          },
+          {
+            "title": "Public",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 3
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10085,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "Article or Business Term",
+        "name_singular": "Business Term",
+        "backref_name": "Relevant Datasets",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": ["article"],
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 73,
+    "layout_otype": 0,
+    "title": "KB Article Template",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10029,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Business Approved",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Approved",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 0
+          },
+          {
+            "title": "Rejeted",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 1
+          },
+          {
+            "title": "Not Approved",
+            "in_use": false,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10036,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The brands that had the best sales in this country last quarter",
+        "name_plural": "Best Performing Brands",
+        "name_singular": "Best Performing Brand",
+        "backref_name": "Performs well in",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["article"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10030,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Business Domain",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Healthcare",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Finance",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Retail",
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Services",
+            "old_index": 3
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Marketing",
+            "old_index": 4
+          }
+        ],
+        "builtin_name": null
+      }
+    ],
+    "id": 74,
+    "layout_otype": 0,
+    "title": "KB Test",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10037,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Personal Info Check",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Yes",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "No",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Unknown",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10032,
+        "field_type": "PICKER",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "PII classification",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "in_use": true,
+            "title": "verified Not PII",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "in_use": true,
+            "title": "verified yes PII",
+            "old_index": 1
+          }
+        ],
+        "builtin_name": null
+      }
+    ],
+    "id": 88,
+    "layout_otype": 0,
+    "title": "PII Information",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10060,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "Policies",
+        "name_singular": "Policy",
+        "backref_name": "Relevant Data",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": [
+          "data",
+          "schema",
+          "table",
+          "attribute",
+          "user",
+          "article",
+          "groupprofile",
+          "groupprofile"
+        ],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10032,
+        "field_type": "PICKER",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "PII classification",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "in_use": true,
+            "title": "verified Not PII",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "in_use": true,
+            "title": "verified yes PII",
+            "old_index": 1
+          }
+        ],
+        "builtin_name": null
+      }
+    ],
+    "id": 82,
+    "layout_otype": 0,
+    "title": "PII Information",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10013,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": "You should describe the content of the wiki page. ",
+        "name_plural": "",
+        "name_singular": "Summary",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10009,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "Individual(s) responsible for approving the item in question",
+        "name_plural": "Approvers",
+        "name_singular": "Approver",
+        "backref_name": "Approver of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10017,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Subject to",
+        "backref_name": "Is subject to",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": ["article"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10045,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Applies to",
+        "backref_name": "Documented by",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": ["data", "schema", "table", "attribute"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10068,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Add Rep from Vendors",
+        "backref_name": "Rep of",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": ["article"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10072,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": "The assets that were created to support the CCAR submission",
+        "name_plural": "",
+        "name_singular": "Submission Output",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 80,
+    "layout_otype": 0,
+    "title": "PII sample custom templates",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 8,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "Stewards",
+        "name_singular": "Steward",
+        "backref_name": "Steward",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": "steward"
+      },
+      {
+        "id": 4,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "Description",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": "description"
+      },
+      {
+        "id": 10100,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "policys1234",
+        "name_singular": "policy",
+        "backref_name": "policys123",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": [
+          "data",
+          "schema",
+          "table",
+          "attribute",
+          "user",
+          "article",
+          "glossary_term",
+          "groupprofile",
+          "groupprofile"
+        ],
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 83,
+    "layout_otype": 93,
+    "title": "Policy 123",
+    "visual_config_id": 68
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 8,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "Stewards",
+        "name_singular": "Steward",
+        "backref_name": "Steward",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": "steward"
+      },
+      {
+        "id": 4,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "Description",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": "description"
+      },
+      {
+        "id": 3,
+        "field_type": "TEXT",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "Title",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": "title"
+      },
+      {
+        "id": 10016,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "Relevant Data",
+        "name_singular": "Relevant Data",
+        "backref_name": "Related Policies",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": [
+          "data",
+          "schema",
+          "table",
+          "attribute",
+          "user",
+          "article",
+          "groupprofile",
+          "groupprofile"
+        ],
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 70,
+    "layout_otype": 93,
+    "title": "Policy (migrated)",
+    "visual_config_id": 37
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10080,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": "How much time do you want us to spend on this?",
+        "name_plural": "",
+        "name_singular": "Resourcing",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 14,
+    "layout_otype": 0,
+    "title": "S Case Demo 2",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10058,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "Business Users",
+        "name_singular": "Business User",
+        "backref_name": "Business User of",
+        "backref_tooltip_text": "The business owner of the item in question(ie project, object), responsible for any related output.",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10082,
+        "field_type": "PICKER",
+        "tooltip_text": "Status",
+        "name_plural": "",
+        "name_singular": "Status",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Accepted",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Candidate",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Under Review",
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Approval Pending",
+            "old_index": 3
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "In Progress",
+            "old_index": 4
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Obsolete",
+            "old_index": 5
+          },
+          {
+            "article_id": null,
+            "tooltip_text": "",
+            "title": "Resolution Pending",
+            "old_index": 6
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10008,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The business owner ultimately responsible for the item in question",
+        "name_plural": "Business Owners",
+        "name_singular": "Business Owner",
+        "backref_name": "Business Owner of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10014,
+        "field_type": "DATE",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Approval Date",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10021,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Data Classification",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Restricted",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 0
+          },
+          {
+            "title": "Proprietary",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 1
+          },
+          {
+            "title": "Open",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Uknown",
+            "old_index": 3
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10055,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Approval Status",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Approved",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Rejected",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Under Evaluation",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10065,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "Related Tables",
+        "name_singular": "Related Table",
+        "backref_name": "Related to",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["table"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10016,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "Relevant Data",
+        "name_singular": "Relevant Data",
+        "backref_name": "Related Policies",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": [
+          "data",
+          "schema",
+          "table",
+          "attribute",
+          "user",
+          "article",
+          "groupprofile",
+          "groupprofile"
+        ],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10032,
+        "field_type": "PICKER",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "PII classification",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "in_use": true,
+            "title": "verified Not PII",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "in_use": true,
+            "title": "verified yes PII",
+            "old_index": 1
+          }
+        ],
+        "builtin_name": null
+      }
+    ],
+    "id": 68,
+    "layout_otype": 0,
+    "title": "Snowflake template",
+    "visual_config_id": null
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 4,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "Description",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": "description"
+      },
+      {
+        "id": 10101,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": null,
+        "name_plural": "relate glossary",
+        "name_singular": "relate glossary",
+        "backref_name": "relate glossary",
+        "backref_tooltip_text": null,
+        "allow_multiple": true,
+        "allowed_otypes": ["article", "glossary_term"],
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 85,
+    "layout_otype": 96,
+    "title": "term type 1",
+    "visual_config_id": 69
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 4,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": null,
+        "name_plural": "",
+        "name_singular": "Description",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": "description"
+      }
+    ],
+    "id": 86,
+    "layout_otype": 96,
+    "title": "Term type 2",
+    "visual_config_id": 70
+  },
+  {
+    "builtin_name": null,
+    "fields": [
+      {
+        "id": 10008,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "The business owner ultimately responsible for the item in question",
+        "name_plural": "Business Owners",
+        "name_singular": "Business Owner",
+        "backref_name": "Business Owner of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10009,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "Individual(s) responsible for approving the item in question",
+        "name_plural": "Approvers",
+        "name_singular": "Approver",
+        "backref_name": "Approver of",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["user", "groupprofile", "groupprofile"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10020,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "LOB KPIs",
+        "name_singular": "LOB KPI",
+        "backref_name": "LOB KPI for",
+        "backref_tooltip_text": "",
+        "allow_multiple": true,
+        "allowed_otypes": ["article"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10022,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Department",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Finance",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Operations",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Sales",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10018,
+        "field_type": "OBJECT_SET",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Refers to",
+        "backref_name": "Is referred to by",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": ["data", "article"],
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10037,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Personal Info Check",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Yes",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "No",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Unknown",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10038,
+        "field_type": "DATE",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Retention Period - End",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10033,
+        "field_type": "RICH_TEXT",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Generic Name",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      },
+      {
+        "id": 10021,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Data Classification",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "title": "Restricted",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 0
+          },
+          {
+            "title": "Proprietary",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 1
+          },
+          {
+            "title": "Open",
+            "in_use": true,
+            "article_id": null,
+            "tooltip_text": null,
+            "old_index": 2
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Uknown",
+            "old_index": 3
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10055,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Approval Status",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Approved",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Rejected",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Under Evaluation",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10061,
+        "field_type": "PICKER",
+        "tooltip_text": "",
+        "name_plural": "",
+        "name_singular": "Use Case",
+        "backref_name": "",
+        "backref_tooltip_text": "",
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": [
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Forelog Reporting",
+            "old_index": 0
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Backlog Reporting",
+            "old_index": 1
+          },
+          {
+            "article_id": null,
+            "tooltip_text": null,
+            "title": "Open Orders",
+            "old_index": 2
+          }
+        ],
+        "builtin_name": null
+      },
+      {
+        "id": 10071,
+        "field_type": "DATE",
+        "tooltip_text": "Date on which the CCAR filing was submitted",
+        "name_plural": "",
+        "name_singular": "Submission Date",
+        "backref_name": null,
+        "backref_tooltip_text": null,
+        "allow_multiple": false,
+        "allowed_otypes": null,
+        "options": null,
+        "builtin_name": null
+      }
+    ],
+    "id": 75,
+    "layout_otype": 0,
+    "title": "Test Article Template",
+    "visual_config_id": null
+  }
+]
